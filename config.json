@@ -1,0 +1,32 @@
+{
+    "app": {
+        "cache": "cache/",
+        "sender": "no-reply@mail.de"
+    },
+
+
+    "sites": [
+        {
+            "url": "https://www.google.de",
+            "name": "Google",
+            "active": true,
+            "timeout": 10,
+            "identifier": "GTM-N3SJV7",
+            "receiver": [
+                "chef@google.com",
+                "alert@google.com"
+            ]
+        },
+        {
+            "url": "https://www.web.de",
+            "name": "Web.de",
+            "active": true,
+            "timeout": 10,
+            "identifier": "1hs73jd8",
+            "receiver": [
+                "chef@web.de",
+                "alert@web.de"
+            ]
+        }
+    ]
+}
