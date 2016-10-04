@@ -2,7 +2,7 @@
 
 `Monit` is a small PHP library for monitoring web pages. With e-mail notifications and response validation.
 
-`Monit` uses [multi_curl](http://php.net/manual/en/function.curl-multi-init.php) functionality for fast, asynchronous processing of multiple requests. [PHP:mail](http://php.net/manual/de/function.mail.php) serve the notifications.
+The monitoring tool uses [multi_curl](http://php.net/manual/en/function.curl-multi-init.php) functionality for fast, asynchronous processing of multiple requests. [PHP:mail](http://php.net/manual/de/function.mail.php) serve the notifications.
 
 
 ### Install
@@ -39,7 +39,7 @@
 | `identifier` | Response validation string | string  |
 | `receiver`   | Receiver e-mail addresses  | array   |
 
-`Monit` will search for `identifier` string in response body.
+`Monit` will search for the `identifier` string in response body.
 
 
 ### Notifications
